@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      master version
+      develop version
     </div>
   )
 }
