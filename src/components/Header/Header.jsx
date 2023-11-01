@@ -1,5 +1,5 @@
 import styles from '../Header/Header.module.css'
-import Logo from '../../assetss/Kombim.svg'
+import Logo from '../../assets/Kombim.svg'
 import Button from '../Button/Button.jsx'
 
 const links = [
