@@ -2,10 +2,10 @@ import React from 'react'
 import styles from '../footer/Footer.module.css'
 
 import Logo from '../../assets/footerlogo.svg'
-import Instagram from '@src/assets/instagram.svg'
-import Phone from '@src/assets/phone.svg'
-import Email from '@src/assets/mail.svg'
-import Location from '@src/assets/location.svg'
+import Instagram from '../../assets/instagram.svg'
+import Phone from '../../assets/phone.svg'
+import Email from '../../assets/mail.svg'
+import Location from '../../assets/location.svg'
 
 const Footer = () => {
 
