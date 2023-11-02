@@ -2,6 +2,7 @@ import Header from './components/Header/Header'
 import React from 'react'
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
+import Contact from './components/Contact/Contact'
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
     <div>
       <Header />
       <Hero />
+      <Contact />
       <Footer />
     </div>
   )
