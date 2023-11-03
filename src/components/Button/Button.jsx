@@ -1,11 +1,13 @@
 import "../Button/Button.css";
 
+
 const Button = ({
   children,
   bgColor = "transparent",
   textColor,
   borderColor = "#fff",
-  textSize = "14px"
+  textSize = "14px",
+  icon
 }) => {
   const btnStyle = {
     backgroundColor: bgColor,
@@ -17,11 +19,14 @@ const Button = ({
     cursor: "pointer",
     transition: ".3s all",
     borderColor: borderColor,
+    display: 'flex',
+    alignItems: 'center',
+    gap: '4px'
   };
 
   return (
     <button className="button" style={btnStyle}>
-      {children}
+      {icon && <img src={icon} alt="" /> } {children}
     </button>
   );
 };
