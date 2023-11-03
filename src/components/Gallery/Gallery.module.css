@@ -1,0 +1,39 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 60px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .header{
+    width: 400px;
+    padding: 20px 10px;
+}
+.container .header h1{
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.container .header .description{
+    width: 350px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.container .gallery{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.container .gallery .left_side{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.container .gallery .right_side{
+    width: 100%;
+    display: flex;
+    margin: 0 30px;
+}
