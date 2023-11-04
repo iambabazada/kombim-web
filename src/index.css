@@ -14,3 +14,13 @@ body {
 .accordion__item {
   border: none !important;
 }
+
+.slick-slider {
+  position: relative !important;
+}
+
+
+
+.slick-prev {
+  z-index: 10 !important;
+}
