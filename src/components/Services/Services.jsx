@@ -48,12 +48,39 @@ const Services = () => {
         speed: 1000,
         autoplaySpeed: 5000,
         cssEase: "linear",
+        initialSlide: 0,
         nextArrow: <PrewArrow />,
-        prevArrow: <NextArrow />
+        prevArrow: <NextArrow />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
 
     };
     return (
-        <div className={styles.services}>
+        <div className={styles.services} id='services'>
             <div className={styles.header}>
                 <div className={styles.left}>
                     <h2>
