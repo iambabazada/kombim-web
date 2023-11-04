@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import About from './components/About/About'
 import Testimonials from './components/Testimonials/Testimonials'
-import Service from './components/Service/Service'
+import Services from './components/Services/Services'
 
 const App = () => {
 
@@ -19,10 +19,10 @@ const App = () => {
       <Hero />
       <Models />
       <About />
+      <Services />
       <Contact />
       <Image1 />
       <Testimonials />
-      <Service />
       <Footer />
     </div>
   )
