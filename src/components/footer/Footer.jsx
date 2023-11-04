@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
                         <div className={styles.box}>
                             <img src={Phone} alt="" />
-                            +994 51 433 3931
+                            <a href="tel:+994 51 433 3931">+994 51 433 3931</a>
                         </div>
                         <div className={styles.box}>
                             <img src={Location} alt="" />
@@ -63,9 +63,9 @@ const Footer = () => {
                 <p>
                     Kombim 2023. All rights reserved
                 </p>
-                <p>
-                    Şərtlər & Qaydalar
-                </p>
+                <a href='https://besign.az/' target='_Blank'>
+                    B.C.A
+                </a>
             </div>
         </footer>
     )

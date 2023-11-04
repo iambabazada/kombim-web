@@ -5,7 +5,7 @@ import Button from '../Button/Button'
 
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id='about'>
             <img src={AboutImg} alt="" />
             <div className={styles.info}>
                 <h2>

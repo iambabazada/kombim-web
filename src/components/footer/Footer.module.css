@@ -26,6 +26,10 @@
     gap: 1rem;
 }
 
+.box a {
+    color: #000;
+}
+
 .right {
     display: flex;
     justify-content: space-between;
@@ -52,10 +56,20 @@
     color: #7c7e81;
 }
 
+.copyright {
+    font-family: poppins;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    font-family: poppins;
+}
+
+.copyright a {
+    color: #000;
 }
 
 .box {

@@ -2,6 +2,7 @@
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
+    padding: 0px 148px;
 }
 
 .about img {
@@ -10,7 +11,7 @@
 
 .info {
     position: absolute;
-    top: 30%;
+    top: 20%;
     padding: 0 45px;
     display: flex;
     flex-direction: column;

@@ -11,6 +11,7 @@ import About from './components/About/About'
 import Testimonials from './components/Testimonials/Testimonials'
 import Services from './components/Services/Services'
 import Gallery from './components/Gallery/Gallery'
+import Image2 from './components/Image2/Image2'
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
       <Image1 />
       <Gallery />
       <Testimonials />
+      <Image2 />
       <Footer />
     </div>
   )

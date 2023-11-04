@@ -7,7 +7,8 @@ const Button = ({
   textColor,
   borderColor = "#fff",
   textSize = "14px",
-  icon
+  icon,
+  href
 }) => {
   const btnStyle = {
     backgroundColor: bgColor,
@@ -25,9 +26,11 @@ const Button = ({
   };
 
   return (
-    <button className="button" style={btnStyle}>
-      {icon && <img src={icon} alt="" /> } {children}
-    </button>
+    <a href={href}>
+      <button className="button" style={btnStyle}>
+        {icon && <img src={icon} alt="" />} {children}
+      </button>
+    </a>
   );
 };
 
