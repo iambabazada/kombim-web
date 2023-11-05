@@ -1,0 +1,47 @@
+.hero {
+    height: 635px;
+    display: flex;
+    background-color: #fbfbfb;
+    align-items: center;
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero .description_container {
+    padding-left: 150px;
+    width: 45%;
+}
+
+.hero .description_container h1 {
+    font-family: Arial, sans-serif;
+    color: #2B69C6;
+    font-size: 115px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.hero .description_container h1 span:nth-child(1) {
+    color: #DD3142;
+}
+
+.hero .description_container h1 span:nth-child(2) {
+    font-size: 64px;
+    color: #000;
+}
+
+.hero .description_container .description {
+    width: 450px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.hero .image_container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

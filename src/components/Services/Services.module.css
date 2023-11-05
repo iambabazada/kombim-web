@@ -1,0 +1,30 @@
+.services {
+    max-width: 1440px;
+    padding: 0px 148px;
+    margin: 4rem auto;
+}
+
+.services h2 {
+    color: #DD3142;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+}
+
+.services h3 {
+    color: var(--grey-scale-black, #191825);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 1rem;
+}
