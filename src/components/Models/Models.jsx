@@ -66,7 +66,7 @@ const Models = () => {
             <Slider {...settings}>
                 {
                     img.map((image) => (
-                        <img src={image.image} alt="" />
+                        <img src={image.image} className={styles.imgggg} alt="" />
                     ))
                 }
             </Slider>
