@@ -1,5 +1,5 @@
 import "../Button/Button.css";
-
+import { useRef } from 'react';
 
 const Button = ({
   children,
@@ -8,7 +8,9 @@ const Button = ({
   borderColor = "#fff",
   textSize = "14px",
   icon,
-  href
+  href,
+  classname,
+  selector
 }) => {
   const btnStyle = {
     backgroundColor: bgColor,
@@ -27,7 +29,7 @@ const Button = ({
 
   return (
     <a href={href}>
-      <button className="button" style={btnStyle}>
+      <button className="button" className={classname} ref={selector} style={btnStyle}>
         {icon && <img src={icon} alt="" />} {children}
       </button>
     </a>

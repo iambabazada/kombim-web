@@ -1,6 +1,10 @@
-import styles from '../Header/Header.module.css'
+// import styles from '../Header/Header.module.css'
+import '../Header/Header.css'
 import Logo from '../../assets/Kombim.svg'
 import Button from '../Button/Button.jsx'
+import 'animate.css';
+import { useEffect, useRef } from 'react';
+// import { useEffect, useRef} from 'react';
 
 const links = [
   {
@@ -21,12 +25,31 @@ const links = [
 ]
 
 const Header = () => {
+
+  
+  let navbar = useRef(null);
+  
+    useEffect(() => {
+      window.addEventListener("scroll", () => {
+        let scrollY = Math.round(Math.ceil(window.scrollY))
+        console.log(scrollY);
+        if(scrollY > 90){
+          navbar.current.classList.add("animate__slideInDown")
+        }else{
+          navbar.current.classList.remove("animate__slideInDown")
+        }
+      })
+    }, [])
+
+  
+
+
   return (
-    <header>
-      <div className={styles.logo}>
+    <header className='header animate__animated' ref={navbar}>
+      <div className="logo">
         <img src={Logo} alt="" />
       </div>
-      <ul className={styles.nav_menu}>
+      <ul className="nav_menu">
         {links.map(link => (
           <Link link={link} key={link.value} />
         ))}
@@ -37,7 +60,7 @@ const Header = () => {
 }
 
 const Link = ({ link }) => {
-  return <a href={link.href} className={styles.nav_item}>{link.value}</a>;
+  return <a href={link.href} className="nav_item">{link.value}</a>;
 }
 
 export default Header
