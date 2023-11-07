@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="description_container">
         <h1 className="header">Kombi<span>m</span> <span>əmin əllərdədir</span></h1>
         <p className="description">Bütün növ kombilərin təmiri, radiator sistemlərinin və isti su xətlərinin yuyulması, santexnika xidmətləri</p>
-        <Button href={"#services"} bgColor='#DD3142' textColor='#fff' classname="animate__animated" selector={btn}>BÜTÜN XİDMƏTLƏR</Button>
+        <Button href={"#services"} bgColor='#DD3142' textColor='#fff' classname="animate__animated root" selector={btn}>BÜTÜN XİDMƏTLƏR</Button>
       </div>
       <div className="image_container animate__animated" ref={img} >
         <img className="heroImg" src={HeroImage} alt="" />

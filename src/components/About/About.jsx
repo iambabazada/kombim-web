@@ -18,7 +18,7 @@ const About = () => {
                     Bütün təmir xidmətlərinə
                 </span>
                 <div>
-                    <Button bgColor='#2B69C6' textColor='#fff'>
+                    <Button classname="primary" bgColor='#2B69C6' textColor='#fff'>
                         6 AY ZƏMANƏT
                     </Button>
                 </div>

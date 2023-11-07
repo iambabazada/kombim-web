@@ -55,7 +55,7 @@ const Header = () => {
             <Link link={link} key={link.value} />
           ))}
         </ul>
-        <Button href={"tel:+9940514333931"} bgColor='#DD3142' textColor="#fff">SİZƏ ZƏNG EDƏK</Button>
+        <Button classname={"root"} href={"tel:+9940514333931"} bgColor='#DD3142' textColor="#fff">SİZƏ ZƏNG EDƏK</Button>
       </div>
     </header>
   )
