@@ -33,15 +33,16 @@ const MenuModal = ({ close, className }) => {
                             {link.value}
                         </a>
                     ))}
+                    <div className={styles.btn}>
+                        <Button classname={"root"} href={"tel:+9940514333931"} bgColor='#DD3142' textColor="#fff">SİZƏ ZƏNG EDƏK</Button>
+                    </div>
                 </ul>
                 <div className={`${styles.close} `} onClick={close}>
                     <button>
                         <img src={ArrowDown} alt="" />
                     </button>
                 </div>
-                <div className={styles.btn}>
-                    <Button classname={"root"} href={"tel:+9940514333931"} bgColor='#DD3142' textColor="#fff">SİZƏ ZƏNG EDƏK</Button>
-                </div>
+
             </div>
 
         </div>

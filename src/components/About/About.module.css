@@ -46,8 +46,9 @@
     line-height: normal;
     width: 35%;
 }
-.about .about_img{
-    display: none;       
+
+.about .about_img {
+    display: none;
 }
 
 
@@ -55,35 +56,40 @@
 
 /* Mobile CSS */
 
-@media only screen and (max-width: 768px){
-    .about{
+@media only screen and (max-width: 768px) {
+    .about {
         position: relative;
         display: flex;
         flex-direction: column;
         padding: 40px 20px;
         order: 2;
     }
-    .about img{
+
+    .about img {
         display: none;
     }
-    .about .about_img{
+
+    .about .about_img {
         display: flex;
         order: 2;
     }
-    .about .info{
+
+    .about .info {
         display: flex;
         position: relative;
         order: 1;
         padding: 0;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
     }
-    .about .info h2{
+
+    .about .info h2 {
         font-size: 45px;
         margin-bottom: 20px;
     }
-    .about .info h4{
+
+    .about .info h4 {
         width: 100%;
         font-size: 14px;
-        margin-bottom: 33px;
+        margin-bottom: 20px;
     }
 }
