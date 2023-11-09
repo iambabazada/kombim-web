@@ -10,3 +10,13 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* Responsive CSS */
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 768px){
+    .image_container{
+        height: 200px;
+    }
+}
