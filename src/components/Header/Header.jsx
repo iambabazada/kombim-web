@@ -10,6 +10,7 @@ import MenuModal from '../MenuModal/MenuModal.jsx';
 
 const links = [
   {
+    href: "#/",
     value: 'Ana səhifə',
   },
   {
@@ -65,7 +66,8 @@ const Header = () => {
               <Link link={link} key={link.value} />
             ))}
           </ul>
-          <div onClick={() => setIsMenu(!isMenu)}>
+
+          <div onClick={() => setIsMenu(!isMenu)} className='menu_hamburger'>
             <img className="menu_hamburger" src={MenuHamburger} alt="" />
           </div>
           <div className='btn_header'>

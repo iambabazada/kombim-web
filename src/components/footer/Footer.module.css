@@ -77,3 +77,35 @@
     align-items: center;
     gap: 1rem;
 }
+
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+    .brand {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links {
+        margin-right: 40px;
+    }
+}
