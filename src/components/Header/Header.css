@@ -69,3 +69,23 @@ header .nav_menu .nav_item:hover::before {
     width: 100%;
     background-color: #DD3142;
 }
+
+
+
+
+
+/* Responsive */
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .header .nav_menu {
+        display: none;
+        background-color: red;
+    }
+}
