@@ -56,12 +56,14 @@
 
 /* Mobile CSS */
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 1024px) {
     .about {
         position: relative;
         display: flex;
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 60px 148px;
         order: 2;
     }
 
@@ -91,5 +93,11 @@
         width: 100%;
         font-size: 14px;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 40px 20px;
     }
 }

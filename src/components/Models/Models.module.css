@@ -6,6 +6,8 @@
 
 /* REsponsive */
 
-.models {
-    padding: 20px 20px;
+@media screen and (max-width: 768px) {
+    .models {
+        padding: 20px 20px;
+    }
 }

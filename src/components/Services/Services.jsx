@@ -44,18 +44,18 @@ const Services = () => {
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         speed: 1000,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 2000,
         cssEase: "linear",
-        initialSlide: 0,
         nextArrow: <PrewArrow />,
         prevArrow: <NextArrow />,
+        initialSlide: 0,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
@@ -66,7 +66,6 @@ const Services = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    initialSlide: 2
                 }
             },
             {
