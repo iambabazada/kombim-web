@@ -37,3 +37,43 @@
     display: flex;
     margin: 0 30px;
 }
+
+/* Responsive CSS */
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+    .container .header{
+        padding: 23px;
+    }
+    .container .header h1{
+        width: 350px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .container .header .description{
+        margin-bottom: 40px;
+    }
+    .container .gallery{
+        margin: 0;
+        width: 100%;
+    }
+    .container .gallery .left_side{
+        gap: 25px;
+    }
+    .container .gallery .left_side img{
+        width: 160px;
+    }
+    .container .gallery .right_side{
+        margin-left: 25px;
+    }
+    .container .gallery .right_side img{
+        width: 165px;
+        margin: 0;
+    }
+}
