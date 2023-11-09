@@ -11,6 +11,7 @@ const Button = ({
   href,
   classname,
   round,
+  onClick,
   selector,
 }) => {
   const btnStyle = {
@@ -31,7 +32,7 @@ const Button = ({
 
   return (
     <a href={href} >
-      <button className={`${classname} ${round}`} ref={selector} style={btnStyle}>
+      <button onClick={onClick} className={`${classname} ${round}`} ref={selector} style={btnStyle}>
         {icon && <img src={icon} alt="" className={`active`} />} {children}
       </button>
     </a>
