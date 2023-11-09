@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 100px;
     right: 50px;
-    z-index: 99;
+    z-index: 77;
     border-radius: 50%;
     -webkit-animation: hoverWave linear 1s infinite;
     animation: hoverWave linear 1s infinite;
