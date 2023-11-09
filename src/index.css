@@ -35,13 +35,17 @@ body {
   z-index: 10 !important;
 }
 
-/* 
+
+
 @media only screen and (max-width : 768px) {
+
+
   .slick-slide {
-    width: 290px !important;
+    padding: 0 1rem;
   }
 
-  .slick-track {
-    margin-left: 60px;
+  .slick-list .slick-track {
+    display: flex;
+    justify-content: center;
   }
-} */
+}
