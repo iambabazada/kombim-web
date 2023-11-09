@@ -6,6 +6,7 @@ import ArrowDown from '../../assets/arrow_down.svg'
 
 const links = [
     {
+        href: "#/",
         value: 'Ana səhifə',
     },
     {
@@ -29,7 +30,7 @@ const MenuModal = ({ close, className }) => {
             <div className={`${styles.modal} '`}>
                 <ul className={styles.nav_menuu}>
                     {links.map((link) => (
-                        <a href={link.href} key={link.value} className={styles.nav_itemm}>
+                        <a href={link.href} onClick={close} key={link.value} className={styles.nav_itemm}>
                             {link.value}
                         </a>
                     ))}
