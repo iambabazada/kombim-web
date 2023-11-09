@@ -1,6 +1,6 @@
 import Button from '../Button/Button'
 import styles from '../Contact/Contact.module.css'
-import Master1 from '../../assets/usta1.png'
+import Master1 from '../../assets/usta1(1).png'
 import Master2 from '../../assets/usta2.png'
 import { useEffect } from 'react'
 
