@@ -10,7 +10,9 @@ const Button = ({
   icon,
   href,
   classname,
-  selector
+  round,
+  onClick,
+  selector,
 }) => {
   const btnStyle = {
     backgroundColor: bgColor,
@@ -24,13 +26,14 @@ const Button = ({
     borderColor: borderColor,
     display: 'flex',
     alignItems: 'center',
-    gap: '4px'
+    gap: '4px',
+
   };
 
   return (
-    <a href={href}>
-      <button className="button" className={classname} ref={selector} style={btnStyle}>
-        {icon && <img src={icon} alt="" />} {children}
+    <a href={href} >
+      <button onClick={onClick} className={`${classname} ${round}`} ref={selector} style={btnStyle}>
+        {icon && <img src={icon} alt="" className={`active`} />} {children}
       </button>
     </a>
   );

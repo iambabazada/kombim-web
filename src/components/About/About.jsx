@@ -2,11 +2,13 @@ import React from 'react'
 import AboutImg from '../../assets/about.svg'
 import styles from './About.module.css'
 import Button from '../Button/Button'
+import AboutImg2 from '../../assets/usta.svg'
 
 const About = () => {
     return (
         <div className={styles.about} id='about'>
             <img src={AboutImg} alt="" />
+            <img src={AboutImg2} className={styles.about_img}/>
             <div className={styles.info}>
                 <h2>
                     KOMBİ TƏMİRİ
@@ -18,7 +20,7 @@ const About = () => {
                     Bütün təmir xidmətlərinə
                 </span>
                 <div>
-                    <Button bgColor='#2B69C6' textColor='#fff'>
+                    <Button classname="primary" bgColor='#2B69C6' textColor='#fff'>
                         6 AY ZƏMANƏT
                     </Button>
                 </div>

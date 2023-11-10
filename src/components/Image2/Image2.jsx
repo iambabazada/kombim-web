@@ -23,8 +23,8 @@ const Image2 = () => {
 
     return (
         <div className={styles.image}>
-            <img src={Imagee} alt="" id='home'/>
-            <img src={Radiator} alt="" id='radiator'/>
+            <img src={Imagee} alt="" className={styles.home} id='home'/>
+            <img src={Radiator} alt="" className={styles.radiator} id='radiator'/>
         </div>
     )
 }

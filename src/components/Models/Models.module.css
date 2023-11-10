@@ -3,3 +3,11 @@
     margin: 0 auto;
     padding: 60px 138px;
 }
+
+/* REsponsive */
+
+@media screen and (max-width: 768px) {
+    .models {
+        padding: 20px 20px;
+    }
+}

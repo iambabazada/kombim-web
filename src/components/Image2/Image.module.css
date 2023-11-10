@@ -14,7 +14,61 @@
 .image img:nth-child(2) {
     position: absolute;
     bottom: 0;
+    top: 133px;
     z-index: 1;
     opacity: .9;
-    right: 250px;
+    right: 300px;
+}
+
+/* Responsive CSS */
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 768px) {
+    .image {
+        position: relative;
+        display: flex;
+        padding: 40px 20px;
+    }
+
+    .image .home {
+        width: 265px !important;
+        height: 167px;
+    }
+
+    .image .radiator {
+        position: absolute;
+        top: 45px;
+        left: 150px;
+        width: 222px;
+        height: 167px;
+        opacity: 85% !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .image {
+        position: relative;
+        display: flex;
+        padding: 40px 20px;
+    }
+
+    .image .home {
+        width: 500px !important;
+        height: 325px !important;
+        object-fit: contain;
+    }
+
+    .image .radiator {
+        width: 375px;
+        height: 310px;
+        left: 288px;
+        top: 55px;
+        object-fit: contain;
+    }
 }

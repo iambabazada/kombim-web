@@ -14,3 +14,13 @@
 .btn img {
     width: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .btn {
+        width: 60px;
+        height: 60px;
+        top: -80px;
+    }
+}

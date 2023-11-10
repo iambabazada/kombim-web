@@ -44,3 +44,56 @@
 .contact_section .services_container .services_description span {
     color: #2B69C6;
 }
+
+
+/* Responsive CSS */
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 768px) {
+    .contact_section {
+        padding: 40px 20px 0px 20px;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .contact_section .services_container {
+        width: 100%;
+    }
+
+    .contact_section .services_container .services_header {
+        font-size: 25px;
+    }
+
+    .contact_section .services_container .services_description {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .contact_section .image_container {
+        position: relative;
+        width: 100%;
+    }
+
+    .contact_section .image_container .master1 {
+        width: 175px;
+        z-index: 1;
+    }
+
+    .contact_section .image_container .master2 {
+        position: absolute;
+        right: 0;
+        top: -70px;
+        width: 240px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact_section {
+        flex-direction: row;
+        gap: 0px;
+        padding: 40px 20px 0px 20px;
+    }
+
+}

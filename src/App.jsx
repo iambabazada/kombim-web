@@ -12,6 +12,9 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Services from './components/Services/Services'
 import Gallery from './components/Gallery/Gallery'
 import Image2 from './components/Image2/Image2'
+import PhoneBtn from './components/PhoneBtn/PhoneBtn'
+import Button from './components/Button/Button'
+import Call from './assets/Kombiphone.svg'
 
 const App = () => {
 
@@ -27,6 +30,10 @@ const App = () => {
       <Gallery />
       <Testimonials />
       <Image2 />
+      <PhoneBtn>
+        <Button classname="round success" bgColor='#2B69C6' icon={Call}>
+        </Button>
+      </PhoneBtn>
       <Footer />
     </div>
   )

@@ -36,4 +36,13 @@
 
 .width {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .service .title {
+        font-size: 16px;
+    }
 }
