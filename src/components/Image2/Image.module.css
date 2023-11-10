@@ -38,7 +38,7 @@
 
     .image .radiator {
         position: absolute;
-        top: 45px;
+        top: 45px !important;
         left: 150px;
         width: 222px;
         height: 167px;
