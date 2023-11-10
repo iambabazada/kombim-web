@@ -14,9 +14,10 @@
 .image img:nth-child(2) {
     position: absolute;
     bottom: 0;
+    top: 133px;
     z-index: 1;
     opacity: .9;
-    right: 250px;
+    right: 300px;
 }
 
 /* Responsive CSS */
@@ -58,16 +59,16 @@
     }
 
     .image .home {
-        width: 100% !important;
-        height: 100% !important;
+        width: 500px !important;
+        height: 325px !important;
+        object-fit: contain;
     }
 
     .image .radiator {
-        position: absolute;
-        width: 500px;
-        height: 300px;
-        bottom: 0px;
-        right: 10px;
-        object-fit: cover;
+        width: 375px;
+        height: 310px;
+        left: 288px;
+        top: 55px;
+        object-fit: contain;
     }
 }
