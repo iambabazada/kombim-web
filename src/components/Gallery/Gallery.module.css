@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 1440px;
     margin: 0 auto;
     padding: 60px 130px;
@@ -6,33 +6,39 @@
     align-items: center;
     justify-content: center;
 }
-.container .header{
+
+.container .header {
     width: 400px;
     padding: 20px 10px;
 }
-.container .header h1{
+
+.container .header h1 {
     font-family: Arial, sans-serif;
     font-size: 60px;
     margin-bottom: 80px;
 }
-.container .header .description{
+
+.container .header .description {
     width: 350px;
     font-family: Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 25px;
 }
-.container .gallery{
+
+.container .gallery {
     width: 55%;
     display: flex;
     align-items: center;
     margin-left: 50px;
 }
-.container .gallery .left_side{
+
+.container .gallery .left_side {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.container .gallery .right_side{
+
+.container .gallery .right_side {
     width: 100%;
     display: flex;
     margin: 0 30px;
@@ -42,38 +48,53 @@
 
 /* Mobile CSS */
 
-@media only screen and (max-width: 768px){
-    .container{
+@media only screen and (max-width: 768px) {
+    .container {
         width: 100%;
         padding: 40px 20px;
         flex-direction: column;
     }
-    .container .header{
+
+    .container .header {
         padding: 23px;
     }
-    .container .header h1{
+
+    .container .header h1 {
         width: 350px;
         font-size: 30px;
         margin-bottom: 20px;
     }
-    .container .header .description{
+
+    .container .header .description {
         margin-bottom: 40px;
     }
-    .container .gallery{
+
+    .container .gallery {
         margin: 0;
         width: 100%;
     }
-    .container .gallery .left_side{
+
+    .container .gallery .left_side {
         gap: 25px;
     }
-    .container .gallery .left_side img{
+
+    .container .gallery .left_side img {
         width: 160px;
     }
-    .container .gallery .right_side{
+
+    .container .gallery .right_side {
         margin-left: 25px;
     }
-    .container .gallery .right_side img{
+
+    .container .gallery .right_side img {
         width: 165px;
         margin: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
     }
 }

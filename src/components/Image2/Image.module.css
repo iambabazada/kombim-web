@@ -23,22 +23,51 @@
 
 /* Mobile CSS */
 
-@media only screen and (max-width: 768px){
-    .image{
+@media only screen and (max-width: 768px) {
+    .image {
         position: relative;
         display: flex;
         padding: 40px 20px;
     }
-    .image .home{
+
+    .image .home {
         width: 265px !important;
         height: 167px;
     }
-    .image .radiator{
+
+    .image .radiator {
         position: absolute;
         top: 45px;
         left: 150px;
         width: 222px;
         height: 167px;
         opacity: 85% !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .image {
+        position: relative;
+        display: flex;
+        padding: 40px 20px;
+    }
+
+    .image .home {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .image .radiator {
+        position: absolute;
+        width: 500px;
+        height: 300px;
+        bottom: 0px;
+        right: 10px;
+        object-fit: cover;
     }
 }
