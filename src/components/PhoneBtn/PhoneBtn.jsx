@@ -3,7 +3,7 @@ import styles from './PhoneBtn.module.css'
 
 const PhoneBtn = ({ children }) => {
     return (
-        <a href='tel:+9940514333931' className={styles.fixed}>
+        <a href='tel:+994514333931' className={styles.fixed}>
             {children}
         </a>
     )

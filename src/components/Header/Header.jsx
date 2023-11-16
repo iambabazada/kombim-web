@@ -71,11 +71,10 @@ const Header = () => {
             <img className="menu_hamburger" src={MenuHamburger} alt="" />
           </div>
           <div className='btn_header'>
-            <Button classname={"root"} href={"tel:+9940514333931"} bgColor='#DD3142' textColor="#fff">SİZƏ ZƏNG EDƏK</Button>
+            <Button classname={"root"} href={"tel:+994514333931"} bgColor='#DD3142' textColor="#fff">SİZƏ ZƏNG EDƏK</Button>
           </div>
         </div>
       </header>
-
     </>
   )
 }

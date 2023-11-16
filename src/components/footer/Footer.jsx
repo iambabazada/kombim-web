@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
                         <div className={styles.box}>
                             <img src={Phone} alt="" />
-                            <a href="tel:+994 51 433 3931">+994 51 433 3931</a>
+                            <a href="tel:+994514333931">+994 51 433 3931</a>
                         </div>
                         <div className={styles.box}>
                             <img src={Location} alt="" />

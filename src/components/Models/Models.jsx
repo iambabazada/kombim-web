@@ -9,6 +9,7 @@ import Model7 from '../../assets/model_7.svg'
 import Model8 from '../../assets/model_8.svg'
 import Model9 from '../../assets/model_9.svg'
 import Model10 from '../../assets/model_10.svg'
+import Model11 from '../../assets/model_11.png'
 
 import styles from './Models.module.css'
 import Slider from "react-slick";
@@ -46,6 +47,10 @@ const img = [
     {
         image: Model10
     },
+    {
+        image: Model11
+    }
+
 ]
 
 const Models = () => {

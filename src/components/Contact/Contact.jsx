@@ -34,7 +34,7 @@ const Contact = () => {
         <h1 className={styles.services_header}>SANTEXNİKA XİDMƏTLƏRİ</h1>
         <span className={styles.services_description}><span>Üçün</span> Bizə Zəng Edin</span>
         <div className={styles.btn}>
-          <Button classname="outline" href={"tel:+9940514333931"} borderColor='#DD3142' textColor="#DD3142" textSize='25px'>+994 51 433 39 31</Button>
+          <Button classname="outline" href={"tel:+994514333931"} borderColor='#DD3142' textColor="#DD3142" textSize='25px'>+994 51 433 39 31</Button>
         </div>
       </div>
       <div className={styles.image_container}>

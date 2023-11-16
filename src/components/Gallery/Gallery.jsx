@@ -35,7 +35,7 @@ const Gallery = () => {
             <div className={styles.header}>
                 <h1>Peşəkar xidmətimizlə bu qışda ailənizi isti saxlayın</h1>
                 <p className={styles.description}>Kombinizə texniki dəstək göstərildiyinə və qışa hazır olduğuna əmin olun</p>
-                <Button classname="root" bgColor='#DD3142' textColor="#fff" href={'tel:+9940514333931'} icon={settings}>Texniki baxış tələb et</Button>
+                <Button classname="root" bgColor='#DD3142' textColor="#fff" href={'tel:+994514333931'} icon={settings}>Texniki baxış tələb et</Button>
             </div>
             <div className={styles.gallery}>
                 <div className={styles.left_side}>
