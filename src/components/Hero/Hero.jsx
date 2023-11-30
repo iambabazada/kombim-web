@@ -33,7 +33,7 @@ const Hero = () => {
         <MyImageComponent>
           <img className="heroImg" src={HeroImage} alt="" loading="lazy" />
         </MyImageComponent>
-        {/* <img src={MobileHero} alt="" loading="lazy" /> */}
+        <img src={MobileHero} alt="" loading="lazy" />
       </div>
     </div>
   )
