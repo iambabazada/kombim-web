@@ -40,7 +40,7 @@ const MenuModal = ({ close, className }) => {
                 </ul>
                 <div className={`${styles.close} `} onClick={close}>
                     <button>
-                        <img src={ArrowDown} alt="" />
+                        <img src={ArrowDown} loading="lazy" alt="" />
                     </button>
                 </div>
 

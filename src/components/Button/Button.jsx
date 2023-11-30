@@ -33,7 +33,7 @@ const Button = ({
   return (
     <a href={href} >
       <button onClick={onClick} className={`${classname} ${round}`} ref={selector} style={btnStyle}>
-        {icon && <img src={icon} alt="" className={`active`} />} {children}
+        {icon && <img src={icon} loading="lazy" alt="" className={`active`} />} {children}
       </button>
     </a>
   );

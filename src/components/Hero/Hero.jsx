@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 import '../Hero/Hero.css';
 import HeroImage from '../../assets/hero.svg'
 import MobileHero from '../../assets/mobile_hero.svg'
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useRef } from 'react';
 import 'animate.css';
 
@@ -17,8 +17,6 @@ const Hero = () => {
     btn.current.classList.add("animate__fadeInUp")
   }, [])
 
-
-
   return (
     <div className="hero">
       <div className="description_container">
@@ -29,8 +27,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="image_container animate__animated" ref={img} >
-        <img className="heroImg" src={HeroImage} alt="" />
-        <img src={MobileHero} alt="" />
+        <img className="heroImg" src={HeroImage} alt="" loading="lazy" />
+        <img src={MobileHero} alt="" loading="lazy" />
       </div>
     </div>
   )
