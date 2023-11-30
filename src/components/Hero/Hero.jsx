@@ -7,6 +7,9 @@ import React, { useEffect } from 'react';
 import { useRef } from 'react';
 import 'animate.css';
 
+const MyImageComponent = React.lazy(() => import('../MyImageComponent/MyImageComponent'));
+
+
 const Hero = () => {
 
   const img = useRef(null);
@@ -27,8 +30,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="image_container animate__animated" ref={img} >
-        <img className="heroImg" src={HeroImage} alt="" loading="lazy" />
-        <img src={MobileHero} alt="" loading="lazy" />
+        <MyImageComponent>
+          <img className="heroImg" src={HeroImage} alt="" loading="lazy" />
+        </MyImageComponent>
+        {/* <img src={MobileHero} alt="" loading="lazy" /> */}
       </div>
     </div>
   )
