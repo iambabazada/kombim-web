@@ -1,7 +1,7 @@
 import Button from '../Button/Button'
 // import styles from '../Hero/Hero.module.css'
 import '../Hero/Hero.css';
-import HeroImage from '../../assets/hero.svg'
+import HeroImage from '../../assets/heroImg.jpg'
 import MobileHero from '../../assets/mobile_hero.svg'
 import React, { useEffect } from 'react';
 import { useRef } from 'react';
